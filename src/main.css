@@ -1,0 +1,48 @@
+.header{
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 0;
+}
+.search{
+    display: flex;
+    gap: 5px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.search input{
+    border-radius: 12px;
+    width: 280px;
+    height: 40px;
+    padding: 0 10px;
+    background-color: transparent;
+    color: white;
+    border: 1px solid white;
+}
+
+.search img{
+    height: 30px;
+}
+
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+}
+
+.movie{
+    text-align: center;
+    padding: 20px 40px;
+    background-color: var(--card-color);
+    border-radius: 12px;
+    box-shadow: 2px 2px 2px 2px rgb(25, 25, 25);
+    width: 400px;
+}
+
+.movie img{
+    width: 250px;
+    height: 380px;
+    object-fit: contain;
+    padding-top: 10px;
+}
