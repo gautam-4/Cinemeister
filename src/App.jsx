@@ -5,7 +5,7 @@ import './main.css'
 
 function App() {
 
-  const API_URL = `http://www.omdbapi.com/?apikey=${import.meta.env.VITE_API_KEY}&`
+  const API_URL = `https://www.omdbapi.com/?apikey=${import.meta.env.VITE_API_KEY}&`
 
   const [movies, setMovies] = useState([]);
   const [searchItem, setSearchItem] = useState();
